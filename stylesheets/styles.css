@@ -46,7 +46,7 @@ a small {
 }
 
 .wrapper {
-  width:500px;
+  width:860px;
   margin:0 auto;
 }
 
@@ -95,8 +95,10 @@ img {
   max-width:100%;
 }
 
-.text-center {
-  text-align: center;
+header {
+  width:270px;
+  float:left;
+  position:fixed;
 }
 
 header ul {
@@ -121,6 +123,7 @@ header ul {
 
 header li {
   width:89px;
+  float:left;
   border-right:1px solid #d2d2d2;
   height:40px;
 }
@@ -157,6 +160,8 @@ header ul a strong {
 }
 
 section {
+  width:500px;
+  float:right;
   padding-bottom:50px;
 }
 
@@ -169,6 +174,13 @@ hr {
   background:#e5e5e5;
   height:1px;
   margin:0 0 20px;
+}
+
+footer {
+  width:270px;
+  float:left;
+  position:fixed;
+  bottom:50px;
 }
 
 @media print, screen and (max-width: 960px) {
