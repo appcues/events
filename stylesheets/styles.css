@@ -21,11 +21,15 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size:28px;
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+    letter-spacing: 0.05em;
+    color: #1abc9c;
 }
 
 h2 {
-  color:#393939;
+  color:#7f8c8d;
 }
 
 h3, h4, h5, h6 {
@@ -48,6 +52,11 @@ a small {
 .wrapper {
   width:860px;
   margin:0 auto;
+}
+
+.main-content {
+  width:100%;
+  text-align:center;
 }
 
 blockquote {
@@ -252,4 +261,17 @@ footer {
     font-size:12pt;
     color:#444;
   }
+}
+
+.typeform-share {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: #1abc9c;
+  width:100%;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
 }
